@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="task1.css"/>
+    <script src="task1.js"></script>
+</head>
+
+<body>
+    <center>
+        <h5>Calculator</h5>
+        <div>
+            <table>
+                <tr>
+                    <td colspan="5"> <input type="text" id="result" disabled /> </td>
+                </tr>
+                <tr>
+                    <td> <input type="button" value="(" onclick="display('(')" style="background-color: rgb(118, 172, 253);" /></td>
+                    <td> <input type="button" value=")" onclick="display(')')" style="background-color: rgb(118, 172, 253);" /></td>
+                    <td> <input type="button" value="ans" onclick="calculate()" style="background-color: rgb(118, 172, 253);" /></td>
+                    <td> <input type="button" value="del" onclick="del()" style="background-color: rgb(253, 118, 221);" /> </td>
+                    <td> <input type="button" value="clear" onclick="clearScreen()" style="background-color: rgb(118, 172, 253);" /></td>
+                </tr>
+                <tr>
+                    <td> <input type="button" value="7" onclick="display('7')" /> </td>
+                    <td> <input type="button" value="8" onclick="display('8')" /> </td>
+                    <td> <input type="button" value="9" onclick="display('9')" /> </td>
+                    <td> <input type="button" value="%" onclick="display('%')" style="background-color: rgb(118, 172, 253);" /></td>
+                    <td> <input type="button" value="log" onclick="log()" style="background-color: rgb(118, 172, 253);" /></td>
+                </tr>
+                <tr>
+                    <td> <input type="button" value="4" onclick="display('4')" /> </td>
+                    <td> <input type="button" value="5" onclick="display('5')" /> </td>
+                    <td> <input type="button" value="6" onclick="display('6')" /> </td>
+                    <td> <input type="button" value="x" onclick="display('*')" style="background-color: rgb(118, 172, 253);" /></td>
+                    <td> <input type="button" value="&radic;" onclick="sqrt()" style="background-color: rgb(118, 172, 253);" /></td>
+                    
+                </tr>
+                <tr>
+                    <td> <input type="button" value="1" onclick="display('1')" /> </td>
+                    <td> <input type="button" value="2" onclick="display('2')" /> </td>
+                    <td> <input type="button" value="3" onclick="display('3')" /> </td>
+                    <td> <input type="button" value="/" onclick="display('/')" style="background-color: rgb(118, 172, 253);" /></td>
+                    <td> <input type="button" value="sin" onclick="sin()" style="background-color: rgb(118, 172, 253);" /></td>
+                </tr>
+                <tr>
+                    <td> <input type="button" value="." onclick="display('.')" style="background-color: rgb(118, 172, 253); font-size:40px;" /></td>
+                    <td> <input type="button" value="0" onclick="display('0')"/></td>
+                    <td> <input type="button" value="+" onclick="display('+')" style="background-color: rgb(118, 172, 253);" /></td>
+                    <td> <input type="button" value="-" onclick="display('-')" style="background-color: rgb(118, 172, 253); font-size:15px;" /></td>
+                    <td> <input type="button" value="cos" onclick="cos()" style="background-color: rgb(118, 172, 253);" /></td>
+                </tr>
+            </table>
+        </div>
+    </center>
+</body>
+
+</html>
