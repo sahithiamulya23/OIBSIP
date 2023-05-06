@@ -1,0 +1,22 @@
+h5 {
+    font-style: italic;
+    font-size: 50px;
+}
+
+.main {
+    background-color: black;
+    margin: 10px;
+    position: absolute;
+    left: 14%;
+    width: 1000px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div {
+    padding: 5px;
+    color: white;
+}
+
+p{
+   padding: 18px;
+}
